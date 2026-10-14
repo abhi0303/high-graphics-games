@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Downtown Drive</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="loading" class="loading">
+      <div class="loading__inner">
+        <h1 class="loading__title">Downtown Drive</h1>
+        <p class="loading__subtitle">Building the city…</p>
+        <div class="loading__bar"><div id="loading-fill" class="loading__fill"></div></div>
+        <p id="loading-status" class="loading__status">Starting</p>
+      </div>
+    </div>
+
+    <div id="hud" class="hud hidden">
+      <div class="speedo">
+        <div class="speedo__value"><span id="speed">0</span><small id="speed-unit">km/h</small></div>
+        <div class="speedo__gear" id="gear">N</div>
+      </div>
+      <div class="help" id="help">
+        <div class="help__drive">
+          <div><kbd>W</kbd><kbd>↑</kbd> accelerate</div>
+          <div><kbd>S</kbd><kbd>↓</kbd> brake / reverse</div>
+          <div><kbd>A</kbd><kbd>D</kbd> steer</div>
+          <div><kbd>Space</kbd> handbrake · <kbd>E</kbd> get out</div>
+          <div><kbd>C</kbd> camera · <kbd>L</kbd> headlights · <kbd>R</kbd> reset car</div>
+          <div><kbd>Mouse drag</kbd> orbit · <kbd>Wheel</kbd> zoom</div>
+        </div>
+        <div class="help__foot">
+          <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move · <kbd>Shift</kbd> run</div>
+          <div><kbd>Space</kbd> jump · <kbd>Ctrl</kbd> kneel</div>
+          <div><kbd>LMB</kbd> punch · <kbd>RMB</kbd> block</div>
+          <div><kbd>E</kbd> enter vehicle · <kbd>C</kbd> camera</div>
+          <div><kbd>Mouse</kbd> look (click to capture, <kbd>Esc</kbd> release) · <kbd>Wheel</kbd> zoom</div>
+        </div>
+        <div><kbd>H</kbd> hide help · <kbd>F</kbd> stats · <kbd>U</kbd> units</div>
+      </div>
+      <div class="prompt" id="prompt"></div>
+      <div class="hint" id="hint">
+        <div class="hint__title">On foot</div>
+        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move · <kbd>Shift</kbd> run · <kbd>Space</kbd> jump · <kbd>Ctrl</kbd> kneel</div>
+        <div><kbd>LMB</kbd> punch · <kbd>RMB</kbd> block · <kbd>Mouse</kbd> camera · <kbd>C</kbd> view · <kbd>E</kbd> enter vehicle</div>
+      </div>
+      <div class="stats hidden" id="stats"></div>
+      <div class="camera-label" id="camera-label"></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+{
+ "slug": "bus_4ef317",
+ "category": "bus",
+ "length": 10.2,
+ "width": 2.699,
+ "height": 3.12,
+ "wheels": {
+  "fl": [
+   -1.1452,
+   0.494,
+   -2.7283
+  ],
+  "fr": [
+   1.1288,
+   0.4785,
+   -2.7318
+  ],
+  "rl": [
+   -1.0838,
+   0.4931,
+   2.1079
+  ],
+  "rr": [
+   1.0377,
+   0.484,
+   2.1113
+  ]
+ },
+ "wheelRadius": 0.488,
+ "wheelbase": 4.836,
+ "track": 2.274,
+ "headlights": [
+  [
+   -0.905,
+   1.045,
+   -5.05
+  ],
+  [
+   0.905,
+   1.045,
+   -5.05
+  ]
+ ],
+ "taillights": [
+  [
+   -0.905,
+   1.045,
+   5.05
+  ],
+  [
+   0.905,
+   1.045,
+   5.05
+  ]
+ ],
+ "paintMaterial": null,
+ "source": {
+  "uid": "4ef3179268ee4de8bf12e9f4905bbde9",
+  "name": "Public Bus Transportation Vehicle City Transit",
+  "author": "N Skeba",
+  "url": "https://sketchfab.com/3d-models/4ef3179268ee4de8bf12e9f4905bbde9",
+  "license": "by"
+ },
+ "tris": {
+  "lod0": 84886,
+  "lod1": 13995
+ }
+}

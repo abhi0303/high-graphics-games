@@ -1,0 +1,68 @@
+{
+ "slug": "sedan_4db0bc",
+ "category": "sedan",
+ "length": 4.8,
+ "width": 2.016,
+ "height": 1.461,
+ "wheels": {
+  "fl": [
+   -0.79,
+   0.316,
+   -1.3926
+  ],
+  "fr": [
+   0.79,
+   0.316,
+   -1.3926
+  ],
+  "rl": [
+   -0.79,
+   0.316,
+   1.284
+  ],
+  "rr": [
+   0.79,
+   0.316,
+   1.284
+  ]
+ },
+ "wheelRadius": 0.316,
+ "wheelbase": 2.677,
+ "track": 1.58,
+ "headlights": [
+  [
+   -0.496,
+   0.695,
+   -2.24
+  ],
+  [
+   0.496,
+   0.695,
+   -2.24
+  ]
+ ],
+ "taillights": [
+  [
+   -0.696,
+   0.827,
+   2.26
+  ],
+  [
+   0.696,
+   0.827,
+   2.26
+  ]
+ ],
+ "paintMaterial": "paint",
+ "source": {
+  "uid": "4db0bcbc183a452eb3ef692cce2fe36f",
+  "name": "SAAB 9-5 blue sedan of 1997-2001",
+  "author": "blendffnike",
+  "url": "https://sketchfab.com/3d-models/4db0bcbc183a452eb3ef692cce2fe36f",
+  "license": "by"
+ },
+ "tris": {
+  "lod0": 44404,
+  "lod1": 9558
+ }
+}

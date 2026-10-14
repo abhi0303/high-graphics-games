@@ -1,0 +1,69 @@
+{
+ "slug": "bus_1d3201",
+ "category": "bus",
+ "length": 12.89,
+ "width": 2.882,
+ "height": 3.456,
+ "wheels": {
+  "fl": [
+   -0.98,
+   0.528,
+   -3.6712
+  ],
+  "fr": [
+   1.02,
+   0.528,
+   -3.6712
+  ],
+  "rl": [
+   -0.806,
+   0.528,
+   2.4993
+  ],
+  "rr": [
+   0.844,
+   0.528,
+   2.4993
+  ]
+ },
+ "wheelRadius": 0.522,
+ "wheelbase": 6.171,
+ "track": 2.0,
+ "headlights": [
+  [
+   -1.0376092529296874,
+   0.75,
+   -6.394999694824219
+  ],
+  [
+   1.0376092529296874,
+   0.75,
+   -6.394999694824219
+  ]
+ ],
+ "taillights": [
+  [
+   -1.1528991699218751,
+   0.85,
+   6.394999694824219
+  ],
+  [
+   1.1528991699218751,
+   0.85,
+   6.394999694824219
+  ]
+ ],
+ "paintMaterial": null,
+ "source": {
+  "uid": "1d32015c67f8404e8f0d92ddbebf9574",
+  "name": "Marcopolo Gran Viale",
+  "author": "FrankFkN",
+  "url": "https://sketchfab.com/3d-models/1d32015c67f8404e8f0d92ddbebf9574",
+  "license": "by",
+  "modified": "articulated 20.4 m bus shortened to a rigid 12.9 m bus (front module spliced to trailer tail); side livery swooshes removed; interior decimated"
+ },
+ "tris": {
+  "lod0": 89085,
+  "lod1": 13998
+ }
+}

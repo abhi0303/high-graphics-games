@@ -1,0 +1,36 @@
+{
+  "name": "high-graphics-city-driver",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Realistic sunny-afternoon city intersection driving game built with Three.js, Rapier and Vite.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch-assets": "node scripts/fetch-assets.mjs",
+    "process-assets": "node scripts/process-assets.mjs",
+    "screenshot": "node scripts/screenshot.mjs",
+    "drive-test": "node scripts/drive-test.mjs",
+    "steering-test": "node scripts/steering-test.mjs",
+    "skid-test": "node scripts/skid-test.mjs",
+    "traffic-test": "node scripts/traffic-test.mjs",
+    "interaction-test": "node scripts/interaction-test.mjs",
+    "camera-test": "node scripts/camera-test.mjs",
+    "character-test": "node scripts/character-test.mjs",
+    "build-character": "blender -b --factory-startup --python tools/build_character.py --"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "n8ao": "1.10.3",
+    "postprocessing": "6.39.5",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "puppeteer-core": "22.15.0",
+    "vite": "5.4.21"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

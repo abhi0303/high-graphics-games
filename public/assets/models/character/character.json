@@ -1,0 +1,105 @@
+{
+ "fps": 30,
+ "pelvisHeight": 0.8952,
+ "clips": {
+  "idle": {
+   "duration": 11.6667,
+   "loop": true
+  },
+  "walk": {
+   "duration": 1.2,
+   "loop": true,
+   "speed": 1.0117
+  },
+  "run": {
+   "duration": 0.6,
+   "loop": true,
+   "speed": 5.8395
+  },
+  "sit": {
+   "duration": 6.0,
+   "loop": true
+  },
+  "drive": {
+   "duration": 6.0,
+   "loop": true
+  },
+  "sit_down": {
+   "duration": 2.9,
+   "loop": false
+  },
+  "stand_up": {
+   "duration": 2.5,
+   "loop": false
+  },
+  "jump_start": {
+   "duration": 0.1,
+   "loop": false,
+   "events": {
+    "takeoff": 0.0833
+   }
+  },
+  "jump_air": {
+   "duration": 0.4,
+   "loop": false
+  },
+  "land": {
+   "duration": 0.4667,
+   "loop": false
+  },
+  "run_jump": {
+   "duration": 0.1333,
+   "loop": false,
+   "events": {
+    "takeoff": 0.1167
+   }
+  },
+  "run_air": {
+   "duration": 0.5667,
+   "loop": false
+  },
+  "run_land": {
+   "duration": 0.3667,
+   "loop": false
+  },
+  "fall": {
+   "duration": 0.2333,
+   "loop": true
+  },
+  "kneel_down": {
+   "duration": 1.5667,
+   "loop": false
+  },
+  "kneel": {
+   "duration": 2.0,
+   "loop": true
+  },
+  "kneel_up": {
+   "duration": 1.3333,
+   "loop": false
+  },
+  "punch_r": {
+   "duration": 0.5333,
+   "loop": false,
+   "events": {
+    "hit": 0.275
+   }
+  },
+  "punch_l": {
+   "duration": 0.4667,
+   "loop": false,
+   "events": {
+    "hit": 0.2333
+   }
+  },
+  "combat_idle": {
+   "duration": 0.7333,
+   "loop": true
+  },
+  "block": {
+   "duration": 0.2667,
+   "loop": true
+  }
+ },
+ "height": 1.8115
+}

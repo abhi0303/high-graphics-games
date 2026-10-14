@@ -1,0 +1,7 @@
+{ "vehicles": [
+  { "slug": "bus_4ef317" }, { "slug": "bus_1d3201" }, { "slug": "bus_fc497f" },
+  { "slug": "sedan_331a59" }, { "slug": "sedan_4b468d" }, { "slug": "sedan_4db0bc" }, { "slug": "sedan_55aa80" }, { "slug": "sedan_26b14a" },
+  { "slug": "hatchback_9482f2" }, { "slug": "taxi_d4c035" },
+  { "slug": "suv_f541e4" }, { "slug": "suv_0ca035" }, { "slug": "suv_d08204" },
+  { "slug": "van_f69de1" }
+] }
