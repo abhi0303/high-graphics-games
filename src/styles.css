@@ -163,6 +163,17 @@ kbd {
 }
 .camera-label.show { opacity: 0.85; }
 
+/* the HUD ignores the mouse (it overlays the canvas); the credits link must stay clickable */
+.help__credits {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 11px;
+  color: inherit;
+  opacity: 0.7;
+  pointer-events: auto;
+}
+.help__credits:hover { opacity: 1; }
+
 /* Driving vs on-foot HUD */
 .help__foot { display: none; }
 .hud.onfoot .help__drive { display: none; }

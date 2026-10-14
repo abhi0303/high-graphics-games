@@ -35,6 +35,34 @@ Production build: `npm run build && npm run preview`.
 Requirements: Node 18+, and a desktop browser with WebGL2 and a reasonably strong GPU. It was
 developed and measured on an Apple M2 in Chrome.
 
+## Deploying to GitHub Pages
+
+The game is a static site, so GitHub Pages can host it. `.github/workflows/deploy-pages.yml`
+builds and publishes it on every push to `main`.
+
+1. One-time setup: on GitHub, open **Settings → Pages → Build and deployment** and set **Source** to
+   **GitHub Actions**.
+2. Push to `main`, or run the workflow from the **Actions** tab. The site is published at
+   `https://<user>.github.io/<repo>/`; for this repository that is
+   <https://abhi0303.github.io/high-graphics-games/>.
+
+The workflow builds with `BASE_PATH=/<repo>/`, because a project site is served from that subpath.
+All asset URLs in the code derive from `import.meta.env.BASE_URL`, so nothing else changes. To
+check a Pages build locally:
+
+```bash
+BASE_PATH=/high-graphics-games/ npm run build
+npx vite preview --base /high-graphics-games/   # http://localhost:4173/high-graphics-games/
+```
+
+Sizes and limits:
+- The built site is about 177 MB, under the Pages 1 GB limit.
+- No single file is near GitHub's 100 MB file limit; the largest is the 18 MB default sky HDRI.
+- A first visit downloads about 150 MB (126 files, measured), after which the browser caches it.
+  Pages has a soft limit of 100 GB of traffic a month, roughly 650 first visits.
+- Pages hosts static files only. That is enough here: physics runs in the browser (WASM) and
+  nothing needs a server.
+
 ## Controls
 
 Driving:

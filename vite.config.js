@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  // GitHub Pages serves a project site under /<repo>/: the deploy workflow sets BASE_PATH.
+  // Every runtime asset URL is built from import.meta.env.BASE_URL, so this is the only switch.
+  base: process.env.BASE_PATH ?? '/',
   server: { port: 5173, strictPort: true },
   build: {
     target: 'es2022',

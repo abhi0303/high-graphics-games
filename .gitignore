@@ -5,4 +5,10 @@ asset-src/
 # screenshot / test output
 screenshot-*.png
 drive-test/
+steering-test/
+skid-test/
+traffic-test/
+interaction-test/
+camera-test/
+character-test/
 .DS_Store
